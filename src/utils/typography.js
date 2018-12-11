@@ -1,6 +1,6 @@
 import Typography from 'typography';
-import OceanBeachTheme from 'typography-theme-ocean-beach';
+import TypographyTheme from 'typography-theme-lincoln';
 
-const typography = new Typography(OceanBeachTheme);
+const typography = new Typography(TypographyTheme);
 
 export default typography;
