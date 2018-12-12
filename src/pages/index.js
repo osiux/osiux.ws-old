@@ -5,9 +5,6 @@ import SEO from '../components/seo';
 import Dog from '../components/images/dog';
 import Cats from '../components/images/cats';
 
-import 'react-hint/css/index.css';
-import '../styles/styles.css';
-
 const ReactHint = ReactHintFactory(React);
 
 const onRenderContent = (target, content) => {
@@ -86,6 +83,7 @@ const IndexPage = () => (
                     justifyContent: 'center',
                     flexDirection: 'row',
                     margin: 0,
+                    flexWrap: 'wrap',
                 }}
             >
                 <li>
