@@ -24,36 +24,8 @@
     font-smoothing: antialiased;
 }
 
-a.symbol:before {
-    content: attr(title);
-}
-
 p {
     line-height: 2em;
-}
-
-span {
-    color: #94C5CC;
-}
-
-a {
-    color: #E65632;
-    text-shadow: none;
-    background-image: none;
-}
-
-ul li {
-    width: auto;
-    margin: 0 .2rem;
-}
-
-ul li a {
-    font-size: 3.5em;
-    text-decoration: none;
-}
-
-ul li a span {
-    color: #f6f7eb;
 }
 
 .react-hint__image {
