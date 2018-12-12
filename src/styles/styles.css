@@ -28,11 +28,18 @@ a.symbol:before {
     content: attr(title);
 }
 
+p {
+    line-height: 2em;
+}
+
+span {
+    color: #94C5CC;
+}
+
 a {
-    color: #fff;
+    color: #E65632;
     text-shadow: none;
     background-image: none;
-    text-decoration: underline;
 }
 
 ul li {
@@ -43,4 +50,13 @@ ul li {
 ul li a {
     font-size: 3.5em;
     text-decoration: none;
+}
+
+ul li a span {
+    color: #f6f7eb;
+}
+
+.react-hint__image {
+    width: 300px;
+    height: 320px;
 }
