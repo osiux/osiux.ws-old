@@ -1,10 +1,12 @@
 import React from 'react';
 
-import Layout from '../components/layout';
 import SEO from '../components/seo';
 
+import '../styles/normalize.css';
+import '../styles/styles.css';
+
 const IndexPage = () => (
-    <Layout>
+    <>
         <SEO
             title="Home"
             keywords={['landing', 'developer', 'react', 'frontend']}
@@ -105,7 +107,7 @@ const IndexPage = () => (
                 </a>
             </p>
         </main>
-    </Layout>
+    </>
 );
 
 export default IndexPage;

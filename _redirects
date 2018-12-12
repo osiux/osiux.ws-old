@@ -1,0 +1,3 @@
+/:year/:month/:slug     https://log.osiux.ws/:slug
+/acerca-de              /
+/tag/*                  https://log.osiux.ws/
