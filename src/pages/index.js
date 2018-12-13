@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactHintFactory from 'react-hint';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import SEO from '../components/seo';
 import Dog from '../components/images/dog';
@@ -55,12 +56,15 @@ const IndexPage = () => (
             <p>
                 <span data-rh="Laravel, React">Full stack developer</span>{' '}
                 living in Mexico City, currently working remotely at{' '}
-                <a href="https://gumgum.com/sports">GumGum Sports</a>.
+                <OutboundLink href="https://gumgum.com/sports">
+                    GumGum Sports
+                </OutboundLink>
+                .
                 <br />
                 Proudly married to a great{' '}
-                <a href="https://www.instagram.com/melissacastillo_photo/">
+                <OutboundLink href="https://www.instagram.com/melissacastillo_photo/">
                     photographer
-                </a>
+                </OutboundLink>
                 , we have{' '}
                 <span data-rh-image="cats" data-rh-image-at="bottom">
                     3 cats
@@ -71,9 +75,10 @@ const IndexPage = () => (
                 </span>
                 .
                 <br />
-                Sometimes I like to <a href="https://log.osiux.ws/">
+                Sometimes I like to{' '}
+                <OutboundLink href="https://log.osiux.ws/">
                     write
-                </a>{' '}
+                </OutboundLink>{' '}
                 (mostly in spanish).
             </p>
             <ul
@@ -87,51 +92,60 @@ const IndexPage = () => (
                 }}
             >
                 <li>
-                    <a href="https://github.com/osiux" title="Github">
+                    <OutboundLink
+                        href="https://github.com/osiux"
+                        title="Github"
+                    >
                         <span className="symbol">&#xe037;</span>
-                    </a>
+                    </OutboundLink>
                 </li>
                 <li>
-                    <a
+                    <OutboundLink
                         href="https://www.linkedin.com/in/ereveles/"
                         title="Linkedin"
                     >
                         <span className="symbol">&#xe052;</span>
-                    </a>
+                    </OutboundLink>
                 </li>
                 <li>
-                    <a
+                    <OutboundLink
                         href="https://stackoverflow.com/users/717643/eduardo-reveles"
                         title="Stack Overflow"
                     >
                         <span className="symbol">&#xe081;</span>
-                    </a>
+                    </OutboundLink>
                 </li>
                 <li>
-                    <a href="https://twitter.com/osiux" title="Twitter">
+                    <OutboundLink
+                        href="https://twitter.com/osiux"
+                        title="Twitter"
+                    >
                         <span className="symbol">&#xe087;</span>
-                    </a>
+                    </OutboundLink>
                 </li>
                 <li>
-                    <a
+                    <OutboundLink
                         href="https://www.instagram.com/oso96_2000/"
                         title="Instagram"
                     >
                         <span className="symbol">&#xe100;</span>
-                    </a>
+                    </OutboundLink>
                 </li>
                 <li>
-                    <a
+                    <OutboundLink
                         href="https://www.last.fm/user/oso96_2000"
                         title="Last.fm"
                     >
                         <span className="symbol">&#xe051;</span>
-                    </a>
+                    </OutboundLink>
                 </li>
                 <li>
-                    <a href="mailto:me@osiux.ws" title="Send me an email">
+                    <OutboundLink
+                        href="mailto:me@osiux.ws"
+                        title="Send me an email"
+                    >
                         <span className="symbol">&#xe024;</span>
-                    </a>
+                    </OutboundLink>
                 </li>
             </ul>
             <p
@@ -140,10 +154,14 @@ const IndexPage = () => (
                     marginTop: '5vh',
                 }}
             >
-                Powered by <a href="https://www.gatsbyjs.org/">GatbsyJs</a> and{' '}
-                <a href="http://drinchev.github.io/monosocialiconsfont/">
+                Powered by{' '}
+                <OutboundLink href="https://www.gatsbyjs.org/">
+                    GatbsyJs
+                </OutboundLink>{' '}
+                and{' '}
+                <OutboundLink href="http://drinchev.github.io/monosocialiconsfont/">
                     Mono Social Icons Font
-                </a>
+                </OutboundLink>
             </p>
         </main>
     </>
