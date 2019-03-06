@@ -1,0 +1,4 @@
+https://gifted-hoover-cdb2b7.netlify.com/* https://www.osiux.ws/:splat 301!
+/:year/:month/:slug     https://log.osiux.ws/:slug
+/acerca-de              /
+/tag/*                  https://log.osiux.ws/
